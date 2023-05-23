@@ -1,16 +1,27 @@
 {
   "name": "github-repos-nodejs-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "this is for communicating between MAX MSP and web browser",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Esen Kucuktutuncu",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "osc-min": "^1.1.1"
+  },
+  "devDependencies": {
+    "c8": "^7.13.0",
+    "eslint": "^8.36.0",
+    "get-port": "^6.1.2",
+    "rollup": "^3.20.1",
+    "tap": "^16.3.0"
   }
+  
+  
+
 }
